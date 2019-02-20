@@ -5,4 +5,4 @@ print(ans)
 
 a = 100
 b = 12
-aa = a+b
+print(a+b)
