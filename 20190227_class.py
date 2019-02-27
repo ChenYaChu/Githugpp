@@ -58,11 +58,43 @@
 
 # print([item*10 for item in mathScore])   # 上面的簡寫
 
-family = {'dad': 'homar',
-          'mom': 'marge',
-          'son': 'bart',
-          'daughter': 'lisa'}
-for i in family.items():
-    print(i)   # 印出來的形式為tuple
-for i, j in family.items():
-    print(i, j)    # 把tuple解開
+# family = {'dad': 'homar',
+#          'mom': 'marge',
+#          'son': 'bart',
+#          'daughter': 'lisa'}
+# for i in family.items():
+#    print(i)   # 印出來的形式為tuple
+# for i, j in family.items():
+#    print(i, j)    # 把tuple解開
+
+# X = (1, 2, 3)
+# Y = (4, 5, 6)
+# for x, y in zip(X, Y):
+#    print(x, y)
+
+#mathScore = [60, 70, 10, 20, 81, 63, 4]
+#l = len(mathScore)
+
+#for index, item in enumerate(mathScore):
+#    print(index, item)
+#print(list(enumerate(mathScore)))
+
+#count = 0
+#while count < 10:
+#    print(count)
+#    count += 1
+#else:
+#    print('count >= 10')
+
+mathScore = [60, 70, 10, 20, 81, 63, 4]
+for i in mathScore:
+    if i > 80:
+        break
+    print(i)
+
+print('-')
+mathScore = [60, 70, 10, 20, 81, 63, 4]
+for j in mathScore:
+    if j > 65:
+        continue
+    print(j)
