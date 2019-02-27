@@ -55,3 +55,5 @@ for i in range(0, l):
 
 for item in mathScore:
     print(item*10)
+
+print([item*10 for item in mathScore])   # 上面的簡寫
