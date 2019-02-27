@@ -48,12 +48,21 @@
 #    print(j)
 
 # ---------
-mathScore = [60, 70, 10, 20, 81, 63, 4]
-l = len(mathScore)
-for i in range(0, l):
-    print(i, mathScore[i])
+# mathScore = [60, 70, 10, 20, 81, 63, 4]
+# l = len(mathScore)
+# for i in range(0, l):
+#    print(i, mathScore[i])
 
-for item in mathScore:
-    print(item*10)
+# for item in mathScore:
+#    print(item*10)
 
-print([item*10 for item in mathScore])   # 上面的簡寫
+# print([item*10 for item in mathScore])   # 上面的簡寫
+
+family = {'dad': 'homar',
+          'mom': 'marge',
+          'son': 'bart',
+          'daughter': 'lisa'}
+for i in family.items():
+    print(i)   # 印出來的形式為tuple
+for i, j in family.items():
+    print(i, j)    # 把tuple解開
