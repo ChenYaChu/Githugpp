@@ -38,19 +38,19 @@ import csv
 #     writer.writerow(['姓名', '性別', '身高'])
 #     for item in members:
 #         writer.writerow([item['name'], item['sex'], item['height']])
-
-import traceback
-file_path = 'abc.txt'
-data = ''
-try:
-    with open (file_path, 'r') as f:
-        fr = f.read()
-        print(fr)
-        data = fr
-# except Exception as e:
-#     print(e)
-#     print('some error')
-except:
-    traceback.print_exc()
-
-print(data)
+#
+# import traceback
+# file_path = 'abc.txt'
+# data = ''
+# try:
+#     with open (file_path, 'r') as f:
+#         fr = f.read()
+#         print(fr)
+#         data = fr
+# # except Exception as e:
+# #     print(e)
+# #     print('some error')
+# except:
+#     traceback.print_exc()
+#
+# print(data)
